@@ -1,0 +1,11 @@
+body {
+  background: linear-gradient(
+    45deg,
+    rgb(51, 174, 211),
+    rgb(86, 38, 184),
+    80%,
+    rgb(16, 50, 185)
+  );
+  min-height: 100vh;
+  overflow: hidden;
+}
