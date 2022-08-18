@@ -1,11 +1,22 @@
 body {
-  background: linear-gradient(
-    45deg,
-    rgb(51, 174, 211),
-    rgb(86, 38, 184),
-    80%,
-    rgb(16, 50, 185)
-  );
+  background: #000;
   min-height: 100vh;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lol {
+  height: 50px;
+  width: 50px;
+  background: #000;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px #fff;
+  transition: 2s;
+}
+
+.lol:hover {
+  background: #fff;
+  box-shadow: 0px 0px 500px #f80;
 }
